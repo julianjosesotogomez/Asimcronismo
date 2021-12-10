@@ -1,0 +1,28 @@
+{
+  "name": "asimcronismo",
+  "version": "1.0.0",
+  "description": "Practica de asincronismo mediante una Api de pruebas.",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianjosesotogomez/Asimcronismo.git"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "Julian José Soto Gómez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianjosesotogomez/Asimcronismo/issues"
+  },
+  "homepage": "https://github.com/julianjosesotogomez/Asimcronismo#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
