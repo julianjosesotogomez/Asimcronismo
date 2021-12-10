@@ -10,7 +10,7 @@ function fetchData(url_api, callback){
             if(xhttp.status === 200){
                 callback(null, JSON.parse(xhttp.responseText))
             }else{
-                const error = new Error('Error '+url_api);
+                const error = new Error('Error '+ url_api);
                 return callback(error, null)
             }
         }
